@@ -1,34 +1,49 @@
-![Platform](https://img.shields.io/badge/platform-linux-blue)
-![PQC](https://img.shields.io/badge/PQC-ML--KEM-green)
+![Platform](https://img.shields.io/badge/platform-Linux-blue)
+![PQC](https://img.shields.io/badge/Post--Quantum-ML--KEM-green)
+![Architecture](https://img.shields.io/badge/architecture-Local%20Agent-purple)
+![Mesh](https://img.shields.io/badge/network-P2P%20Mesh-orange)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
-![Status](https://img.shields.io/badge/status-alpha-orange)
+![Status](https://img.shields.io/badge/status-Alpha-red)
 
 # ZION
 
-Post-Quantum Secure Messenger with Local Agent Architecture, P2P Mesh Networking and Linux-First Desktop Client.
+### Post-Quantum Secure Messenger
 
+**ZION** is an open-source secure communication platform designed around a **Local Agent Architecture**, **Post-Quantum Cryptography**, and **Peer-to-Peer Mesh Networking**.
+
+Unlike traditional messengers, cryptographic operations are isolated from the user interface and performed by a dedicated local agent running on the user's device.
+
+---
+
+## Core Features
+
+- 🔐 Local Cryptographic Agent
+- 🛡️ Post-Quantum Cryptography (ML-KEM)
+- 🔑 ECDH Key Exchange
+- 🔒 AES-256-GCM Encryption
+- 🌐 Peer-to-Peer Mesh Networking
+- 👤 Decentralized Identity
+- 📡 Bootstrap Discovery Network
+- 🎙 Secure Voice Communication (WebRTC)
+- 🖥 Linux Desktop Client (Tauri)
+- 📂 Self-Hosted Friendly
+- 🔓 Open Source
+
+---
+
+## Architecture
+
+```text
+UI
+ ↓
 Local Agent
-P2P Mesh
-ML-KEM (PQC)
-Self-Hosted
-Linux First
-
-
-ZION is an open-source post-quantum secure messenger built around a local cryptographic agent.
-
-Unlike traditional web messengers, encryption keys never live inside the browser UI.
-
-Core principles:
-
-* Local Agent Architecture
-* Post-Quantum Cryptography (ML-KEM)
-* Peer-to-Peer Mesh Networking
-* Self-Hosted Friendly
-* Linux First
-* Open Source
-
-Architecture:
-
-UI → Local Agent → PQC Layer → P2P Mesh → Remote Agent → UI
-
-The goal of ZION is to provide a foundation for secure communication that remains resilient in a post-quantum future while preserving user control over identity and cryptographic material.
+ ↓
+Post-Quantum Layer (ML-KEM)
+ ↓
+AES-256-GCM Transport
+ ↓
+P2P Mesh Network
+ ↓
+Remote Agent
+ ↓
+UI
