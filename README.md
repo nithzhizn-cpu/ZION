@@ -41,3 +41,107 @@ No central trust authority.
 ---
 
 ## Architecture
+UI
+↓
+Local Agent
+↓
+ML-KEM (PQC)
+↓
+AES-256-GCM
+↓
+P2P Mesh
+↓
+Remote Agent
+↓
+UI
+
+---
+
+## Why Local Agent?
+
+Traditional web messengers often perform cryptographic operations directly inside browser code.
+
+ZION separates the user interface from the cryptographic engine.
+
+Benefits:
+
+- Private keys remain inside the local agent
+- Reduced attack surface
+- Easier migration to new cryptographic standards
+- Better support for self-hosting
+- Foundation for hardware security integration
+
+---
+
+## Features
+
+### Current
+
+- Local cryptographic agent
+- Identity generation
+- ML-KEM key exchange
+- AES-256-GCM encryption
+- P2P transport layer
+- Feed channels
+- Secure messaging
+- Linux desktop client
+
+### Planned
+
+- Voice calls
+- Video calls
+- Mesh discovery
+- Offline relay nodes
+- Hardware security modules
+- Linux phone support
+- Decentralized identity verification
+- PQC signatures
+
+---
+
+## Documentation
+
+- Architecture → ARCHITECTURE.md
+- Security → SECURITY.md
+- Roadmap → ROADMAP.md
+
+---
+
+## Project Status
+
+Current stage: Alpha
+
+ZION is under active development.
+
+APIs, protocols and storage formats may change.
+
+Not recommended for production use yet.
+
+---
+
+## Contributing
+
+Contributions, security reviews and protocol discussions are welcome.
+
+Open an issue or submit a pull request.
+
+---
+
+## Security
+
+If you discover a vulnerability, please follow the Security Policy.
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Motto
+
+Trust No Server.
+Verify Keys.
+Own Your Identity.
+
