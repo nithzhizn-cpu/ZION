@@ -6,25 +6,22 @@
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 ![Status](https://img.shields.io/badge/status-alpha-orange)
 
-#ZION
+# ZION
 
-Trust No Server.
-
-Verify Keys.
-
-Own Your Identity.
-
-Post-Quantum Secure Messenger
+### Post-Quantum Secure Communication Platform
 
 Linux First • Local Agent • Post-Quantum Cryptography • P2P Mesh
+---
 
-⸻
+> Trust No Server.
+>
+> Verify Keys.
+>
+> Own Your Identity.
 
-Vision
+ZION is an open-source secure communication platform built around a Local Agent architecture.
 
-ZION is an open-source secure communication platform built for a future where privacy, identity ownership and cryptographic resilience are essential.
-
-Unlike traditional messengers, cryptographic operations are separated from the user interface and handled by a dedicated local agent running on the user’s device.
+Instead of performing cryptographic operations inside a browser, ZION separates the user interface from the security engine.
 
 Private keys remain under user control.
 
@@ -32,7 +29,8 @@ No cloud key storage.
 
 No central trust authority.
 
-No dependency on a single server.
+Designed for a post-quantum future.
+
 
 ⸻
 
