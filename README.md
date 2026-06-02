@@ -13,7 +13,6 @@ ML-KEM (PQC)
 Self-Hosted
 Linux First
 
-ZION
 
 ZION is an open-source post-quantum secure messenger built around a local cryptographic agent.
 
