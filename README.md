@@ -1,49 +1,43 @@
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![PQC](https://img.shields.io/badge/Post--Quantum-ML--KEM-green)
-![Architecture](https://img.shields.io/badge/architecture-Local%20Agent-purple)
-![Mesh](https://img.shields.io/badge/network-P2P%20Mesh-orange)
+![Platform](https://img.shields.io/badge/platform-linux-blue)
+![Architecture](https://img.shields.io/badge/architecture-local--agent-brightgreen)
+![PQC](https://img.shields.io/badge/post--quantum-ML--KEM-success)
+![Mesh](https://img.shields.io/badge/network-P2P%20Mesh-purple)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
-![Status](https://img.shields.io/badge/status-Alpha-red)
+![Status](https://img.shields.io/badge/status-alpha-orange)
 
 # ZION
 
 ### Post-Quantum Secure Messenger
 
-**ZION** is an open-source secure communication platform designed around a **Local Agent Architecture**, **Post-Quantum Cryptography**, and **Peer-to-Peer Mesh Networking**.
-
-Unlike traditional messengers, cryptographic operations are isolated from the user interface and performed by a dedicated local agent running on the user's device.
+Local Agent • Post-Quantum Cryptography • P2P Mesh • Linux First
 
 ---
 
-## Core Features
+## Vision
 
-- 🔐 Local Cryptographic Agent
-- 🛡️ Post-Quantum Cryptography (ML-KEM)
-- 🔑 ECDH Key Exchange
-- 🔒 AES-256-GCM Encryption
-- 🌐 Peer-to-Peer Mesh Networking
-- 👤 Decentralized Identity
-- 📡 Bootstrap Discovery Network
-- 🎙 Secure Voice Communication (WebRTC)
-- 🖥 Linux Desktop Client (Tauri)
-- 📂 Self-Hosted Friendly
-- 🔓 Open Source
+ZION is an open-source secure communication platform designed for a future where privacy, ownership of identity and cryptographic resilience matter.
+
+Unlike traditional messengers, cryptographic operations are handled by a dedicated local agent rather than inside a browser interface.
+
+Users control their own keys.
+
+No cloud key storage.
+
+No central trust authority.
+
+---
+
+## Core Principles
+
+- Local Agent Architecture
+- Post-Quantum Cryptography (ML-KEM)
+- AES-256-GCM Encrypted Sessions
+- End-to-End Encryption
+- Peer-to-Peer Mesh Networking
+- Self-Hosted Friendly
+- Open Source
+- Linux First
 
 ---
 
 ## Architecture
-
-```text
-UI
- ↓
-Local Agent
- ↓
-Post-Quantum Layer (ML-KEM)
- ↓
-AES-256-GCM Transport
- ↓
-P2P Mesh Network
- ↓
-Remote Agent
- ↓
-UI
