@@ -3,9 +3,9 @@
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 ![Status](https://img.shields.io/badge/status-alpha-orange)
 
-ZION Messenger
+# ZION
 
-Post-Quantum Secure Messenger
+Post-Quantum Secure Messenger with Local Agent Architecture, P2P Mesh Networking and Linux-First Desktop Client.
 
 Local Agent
 P2P Mesh
