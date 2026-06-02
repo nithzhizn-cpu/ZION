@@ -32,12 +32,13 @@
 
 
 
-
-
-
-
-
 ZION
+
+Trust No Server.
+
+Verify Keys.
+
+Own Your Identity.
 
 Post-Quantum Secure Messenger
 
@@ -58,6 +59,48 @@ No cloud key storage.
 No central trust authority.
 
 No dependency on a single server.
+
+⸻
+
+Current Status
+
+🚧 Alpha Development
+
+Working
+
+✅ Linux Desktop Client
+
+✅ Local Agent
+
+✅ Identity Generation
+
+✅ ML-KEM Key Exchange
+
+✅ AES-256-GCM Encryption
+
+✅ Secure Messaging
+
+✅ Feed Channels
+
+✅ Bootstrap Discovery
+
+✅ Self-Hosted Backend
+
+In Progress
+
+🚧 Voice Calls
+
+🚧 Video Calls
+
+🚧 Automatic Mesh Discovery
+
+🚧 Linux Phone Support
+
+🚧 Hardware Security Integration
+
+🚧 Distributed Relay Nodes
+
+🚧 PQC Signatures
 
 ⸻
 
@@ -107,35 +150,35 @@ ZION introduces a dedicated local agent responsible for:
 * Identity generation
 * Key management
 * Cryptographic operations
-* Secure storage
+* Secure local storage
 * Mesh networking
-* Local security policies
+* Security policy enforcement
 
 Benefits
 
 * Private keys remain outside the browser UI
 * Reduced attack surface
 * Easier cryptographic upgrades
-* Improved self-hosting capabilities
+* Better self-hosting support
 * Foundation for hardware security integration
-* Better separation between interface and security layer
+* Clear separation between interface and security layer
 
 ⸻
 
-Current Features
+Core Technologies
 
 Cryptography
 
 * ML-KEM Post-Quantum Key Exchange
 * AES-256-GCM Encryption
-* Local Identity Storage
+* Local Key Management
 * Secure Session Establishment
 
 Networking
 
 * Peer-to-Peer Transport
 * Bootstrap Discovery
-* Local Agent Communication
+* Agent-to-Agent Communication
 * Mesh-Ready Architecture
 
 Messaging
@@ -143,13 +186,81 @@ Messaging
 * Secure Private Messaging
 * Feed Channels
 * Identity Management
-* Local Agent Integration
+* End-to-End Encrypted Sessions
 
 Desktop
 
 * Linux Desktop Client
-* Tauri Application
-* Native Agent Integration
+* Tauri Framework
+* Native Local Agent Integration
+
+⸻
+
+Feature Comparison
+
+Signal
+
+✅ Open Source
+
+✅ Linux Desktop
+
+❌ Local Agent
+
+❌ ML-KEM Integration
+
+❌ P2P Mesh Architecture
+
+❌ Self Hosted
+
+⸻
+
+Session
+
+✅ Open Source
+
+✅ Linux Desktop
+
+⚠️ Partial Decentralization
+
+❌ Local Agent
+
+❌ ML-KEM Integration
+
+❌ Self Hosted
+
+⸻
+
+Matrix
+
+✅ Open Source
+
+✅ Linux Desktop
+
+✅ Self Hosted
+
+⚠️ Federated Architecture
+
+❌ Local Agent
+
+❌ ML-KEM Integration
+
+⸻
+
+ZION
+
+✅ Open Source
+
+✅ Linux Desktop
+
+✅ Local Agent
+
+✅ ML-KEM Integration
+
+✅ P2P Mesh Architecture
+
+✅ Self Hosted
+
+✅ Linux First Design
 
 ⸻
 
@@ -185,19 +296,6 @@ Platforms
 
 ⸻
 
-Feature Comparison
-
-Feature	Signal	Session	Matrix	ZION
-Open Source	✅	✅	✅	✅
-Self Hosted	❌	❌	✅	✅
-Linux Desktop	✅	✅	✅	✅
-Local Agent	❌	❌	❌	✅
-ML-KEM Integration	❌	❌	❌	✅
-P2P Mesh Architecture	❌	⚠️	⚠️	✅
-Linux First Design	❌	❌	❌	✅
-
-⸻
-
 Documentation
 
 * ARCHITECTURE.md
@@ -207,15 +305,21 @@ Documentation
 
 ⸻
 
-Project Status
+Screenshots
 
-Current Stage
+Coming soon.
+
+Linux Desktop screenshots and demonstration videos will be published in future releases.
+
+⸻
+
+Project Status
 
 Alpha
 
 ZION is under active development.
 
-APIs, protocols, storage formats and network components may change between releases.
+APIs, protocols, storage formats and networking components may change between releases.
 
 The project is currently intended for testing, research and community feedback.
 
@@ -225,7 +329,7 @@ Production use is not yet recommended.
 
 Contributing
 
-Contributions, testing, code reviews, security research and protocol discussions are welcome.
+Contributions, testing, security reviews and protocol discussions are welcome.
 
 Ways to contribute:
 
@@ -252,7 +356,7 @@ Open Source
 
 ZION is developed as an open project.
 
-The long-term goal is to build a secure communication ecosystem that remains resilient in a post-quantum world while preserving user control over identity and infrastructure.
+The long-term goal is to build a secure communication ecosystem that remains resilient in a post-quantum world while preserving user control over identity, cryptography and infrastructure.
 
 ⸻
 
