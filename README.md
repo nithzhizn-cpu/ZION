@@ -1,14 +1,9 @@
 
 ![Platform](https://img.shields.io/badge/platform-linux-blue)
-
 ![Architecture](https://img.shields.io/badge/architecture-local--agent-brightgreen)
-
 ![PQC](https://img.shields.io/badge/post--quantum-ML--KEM-success)
-
 ![Mesh](https://img.shields.io/badge/network-P2P%20Mesh-purple)
-
 ![License](https://img.shields.io/badge/license-MIT-yellow)
-
 ![Status](https://img.shields.io/badge/status-alpha-orange)
 
 #ZION
